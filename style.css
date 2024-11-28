@@ -1,1 +1,175 @@
-@import "https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Pacifico&display=swap";body{height:100vh;margin:0;background-color:#0E3A18}header{display:flex;justify-content:space-between;align-items:center;height:65px;padding-inline:105px}footer{display:flex;justify-content:center;align-items:center;height:65px;padding-inline:105px}h1{font-family:playfair,serif;letter-spacing:-2px;color:#fff}.paragrafo{color:#fff;text-align:center}.paiSobre1,.paiSobre2,.paiSobre3,.paiSobre4,.paiSobre5,.paiSobre6,.paiSobre7,.paiSalveAmazonia{width:100%;display:flex;justify-content:center;align-items:center;line-height:25px}.paiSalveAmazonia{color:rgba(255,255,255,0.493);margin-top:15px;margin-bottom:55px}.paiSobre5{display:flex;flex-direction:column}.sobre1,.sobre2,.sobre3,.sobre4,.sobre5,.sobre6,.sobre7{color:#fff;width:555px}img{width:55px}.container{display:flex;flex-direction:column;justify-content:center;align-items:center;height:80vh}.countdown{display:flex;font-size:24px;font-family:"Anonymous Pro",serif;color:#f0f8ff}.paiBotao{width:100%;display:flex;justify-content:center;margin-top:55px}.botao{color:#f0f8ff;background-color:#fff;width:555px;text-align:center;display:flex;justify-content:center;align-items:center;height:50px;text-decoration:none;color:#000;border-radius:15px}.botao:hover{background-color:#e6e6e6;box-shadow:rgba(0,0,0,0.2) 0 8px 24px}@media only screen and (max-width: 600px){img{display:none}footer img{display:block}header{display:flex;justify-content:center;align-items:center}.countdown{flex-direction:column}.time-unit{margin-bottom:10px}.count-text{margin-top:10px}.title-unit{margin-bottom:20px}#dia{content:"ias"}}@media only screen and (min-width: 600px){.time-unit{margin-right:10px}.count-text{margin-right:10px}.title-unit{margin-right:20px}}
+@import "https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Pacifico&display=swap";
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: #0e3a18;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  padding-inline: 105px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  padding-inline: 105px;
+}
+h1 {
+  font-family: playfair, serif;
+  letter-spacing: -2px;
+  color: #fff;
+}
+.paragrafo {
+  color: #fff;
+  text-align: center;
+}
+.paiSobre1,
+.paiSobre2,
+.paiSobre3,
+.paiSobre4,
+.paiSobre5,
+.paiSobre6,
+.paiSobre7,
+.paiSalveAmazonia {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 25px;
+}
+.paiSalveAmazonia {
+  color: rgba(255, 255, 255, 0.493);
+  margin-top: 15px;
+  margin-bottom: 55px;
+}
+.paiSobre5 {
+    width: 100%; /* Ocupa toda a largura do contêiner */
+    display: flex;
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    align-items: flex-start; /* Centraliza o conteúdo */
+    text-align: left; /* Centraliza o texto */
+    padding: 15px; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclui padding na largura total */
+  }
+  
+  
+.sobre1,
+.sobre2,
+.sobre3,
+.sobre4,
+.sobre5,
+.sobre6,
+.sobre7 {
+  color: #fff;
+  width: 555px;
+}
+img {
+  width: 55px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.countdown {
+  display: flex;
+  font-size: 24px;
+  font-family: "Anonymous Pro", serif;
+  color: #f0f8ff;
+}
+.paiBotao {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+}
+.botao {
+  color: #f0f8ff;
+  background-color: #fff;
+  width: 555px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  text-decoration: none;
+  color: #000;
+  border-radius: 15px;
+}
+.botao:hover {
+  background-color: #e6e6e6;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 8px 24px;
+}
+@media only screen and (max-width: 600px) {
+  .paiSobre1, .paiSobre2, .paiSobre3, .paiSobre4{
+    width: 100%;
+  }
+
+  .sobre1, .sobre2, .sobre3, .sobre4, .sobre6, .sobre7{
+    padding: 15px;
+  }
+
+  .paiSobre5 {
+    width: 100%;
+  }
+
+  .sobre5 {
+    max-width: 100%; /* Garante que o texto fique dentro da área visível */
+  }
+
+  img {
+    display: none;
+  }
+  footer img {
+    display: block;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .countdown {
+    flex-direction: column;
+  }
+  .time-unit {
+    margin-bottom: 10px;
+  }
+  .count-text {
+    margin-top: 10px;
+  }
+  .title-unit {
+    margin-bottom: 20px;
+  }
+  #dia {
+    content: "ias";
+  }
+
+  .paiSalveAmazonia{
+    width: 100%;
+  }
+
+  .paiBotao{
+    width: 100%;
+  }
+
+  .botao{
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .time-unit {
+    margin-right: 10px;
+  }
+  .count-text {
+    margin-right: 10px;
+  }
+  .title-unit {
+    margin-right: 20px;
+  }
+}
