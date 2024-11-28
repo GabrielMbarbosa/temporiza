@@ -47,13 +47,13 @@ h1 {
   margin-bottom: 55px;
 }
 .paiSobre5 {
-    width: 100%; /* Ocupa toda a largura do contêiner */
+    width: 100%;
     display: flex;
-    flex-direction: column; /* Alinha os elementos verticalmente */
-    align-items: flex-start; /* Centraliza o conteúdo */
-    text-align: left; /* Centraliza o texto */
-    padding: 15px; /* Espaçamento interno */
-    box-sizing: border-box; /* Inclui padding na largura total */
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 15px; 
+    box-sizing: border-box; 
   }
   
   
@@ -120,7 +120,7 @@ img {
   }
 
   .sobre5 {
-    max-width: 100%; /* Garante que o texto fique dentro da área visível */
+    max-width: 100%;
   }
 
   img {
